@@ -1,0 +1,63 @@
+.testimonials{
+    padding: 10px 0;
+    text-align: center;
+}
+.row
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.col
+{
+    flex: 45%;
+    max-width: 45%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.custo1
+{
+    background: linear-gradient(180deg, #0b3bc0 1%,white 1%);
+    padding: 30px;
+}
+.custo1 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 35px;
+}
+.custo2
+{
+    background: linear-gradient(180deg, #e91e1e 1%,white 1%);
+    padding: 30px;
+}
+.custo2 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 35px;
+}
+.name
+{
+    font-size: 20px;
+    color: black;
+    font-weight: bolder;
+    font-family: 'Roboto',sans-serif;
+}
+.stars
+{
+    color: #FFD700;
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 600px) {
+    .col{
+        flex: 100%;
+        max-width: 100%;
+    }
+    
+}
+.quote
+{
+    color: rgb(151, 146, 146);
+    margin-bottom: 10px;
+}
